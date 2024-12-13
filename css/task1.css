@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+   font-weight: 900px;
+   font-size: 160px;
+   width: 300px;
+   margin-left: 200px;
+}
+p{
+   position: relative;
+   width: 600px;
+   bottom: 500px;
+   left: 800px;
+}
+span{
+    background-color: blue;
+    padding: 5px;
+    margin: 3px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 250px;
+    left:800px ;
+}

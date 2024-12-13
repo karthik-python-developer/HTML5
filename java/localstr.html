@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+        <h2>register page</h2>
+        <input type="text" name="username" id="username" placeholder="username"> <br><br>
+        <input type="password" name="password" id="password" placeholder="password"> <br><br>
+        <input type="mail" name="mail" id="mail" placeholder="mail"> <br><br>
+        <button id="register_btn"> register</button> <br><br>
+       
+        <div>
+            <h3 id="output"></h3>
+        </div>
+    
+       
+        <h2>login page </h2>
+        <input type="number" name="key" id="key" placeholder="enter ur key "> <br><br>
+        <input type="text" name="username" id="l_username" placeholder="username"> <br><br>
+        <input type="password" name="password" id="l_password" placeholder="password"> <br><br>
+        <button id="login_btn"> login </button>
+      
+
+       <script>
+
+            const r_btn = document.getElementById('register_btn');
+            const l_btn = document.getElementById('login_btn');
+
+            let arr = [];
+
+            r_btn.addEventListener("click", ()=>{
+                let username = document.getElementById("username").value
+                let password = document.getElementById("password").value
+                let mail = document.getElementById("mail").value
+
+                let obj ={
+                    user : username ,
+                    pass : password ,
+                    email : mail,x
+                }
+                arr.push(obj)
+                
+                let h3 = document.getElementById("output");
+                h3.innerHTML = ` ${username}  successfully register take ur id ${arr.length-1}`
+                
+               
+            })
+
+
+            l_btn.addEventListener("click",()=>{
+                let l_key = document.getElementById("key").value
+                let l_username = document.getElementById("l_username").value
+                let l_password = document.getElementById("l_password").value
+
+                for (let i = 0 ; i < arr.length ; i++){
+                    if (i == l_key  ){
+                        let temp = arr[i]
+                      
+                        if ( l_username == temp.user && l_password == temp.pass ){
+                            alert("login success ")
+                    }
+                    else{
+                        alert("logiin failed username / pass is incorrect") 
+                    }
+                }
+
+                }
+
+            })
+
+
+
+
+       </script>
+
+
+</body>
+</html>

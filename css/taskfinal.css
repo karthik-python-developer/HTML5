@@ -1,0 +1,13 @@
+#A{
+    height: 200vh;
+    background-color: #cad1b6;
+}
+#a1{
+   position: absolute;
+   top: 17px;
+   left: 100px;
+   font-size: 30px;
+   text-transform: capitalize;
+   /* background-color: gainsboro; */
+  
+}

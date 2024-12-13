@@ -1,0 +1,79 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <div class="pic">
+
+        </div>
+       
+
+    <script>
+        // object :
+
+
+    //     let karthik = {
+    //         name : "karthik",
+    //         age : 20,
+    //         address : "chennai",
+    //         hobbies :["cricket" , "running" , "freefire"] ,
+    //         sports :function(){
+    //             console.log("playing games");     
+    //         },
+        
+    //         other_personality :{
+    //             name : "karthik",
+    //             age : 20,
+    //             address : "chennai",
+    //             hobbies :["cricket" , "running" , "freefire"] ,
+    //             sports :function(){
+    //                 console.log("playing with kd bro"); 
+    //         }
+    //     }
+    // }
+
+    // console.log(karthik.other_personality.sports)
+
+
+//  task :
+
+    let image ={
+        stadium:{
+            url :"https://images.pexels.com/photos/2799556/pexels-photo-2799556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        players:{
+            url:"https://www.thestatesman.com/wp-content/uploads/2019/06/David-Warner-4.jpg"    
+        },
+        team:{
+            url:"https://suresh1.dgclasses.in/wp-content/uploads/2024/11/Virat-Kohli-1_11zon-1-1024x595-1.webp"    
+        },
+        
+    }
+ 
+    
+    let picture = document.getElementsByTagName("div");
+    let img = document.createElement("img");
+    img.setAttribute("src",image.stadium.url);
+    picture[0].append(img)
+
+
+    let picture1 = document.getElementsByTagName("div");
+    let img2 = document.createElement("img");
+    img2.setAttribute("src",image.players.url)
+    picture1[0].append(img2)
+
+    let picture2 = document.getElementsByTagName("div");
+    let img3 = document.createElement("img");
+    img3.setAttribute("src",image.team.url)
+    picture1[0].append(img3)
+
+
+
+    </script>
+
+    </body>
+    </html>

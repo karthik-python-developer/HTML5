@@ -1,0 +1,236 @@
+/* .container1{
+    background-color: lightgray;
+    height:35vh ;
+} */
+.thala{
+    background-color: lightcoral;
+    height: 35vh;
+}
+#black{
+    height: 5vh;
+    position: absolute;
+    top:1490px ;
+    left: 140px
+
+}
+#dog{
+    height: 20vh;
+    position: absolute;
+    top:1490px ;
+    left: 1040px
+
+}
+#kr{
+    position: absolute;
+    top:1470px ;
+    left: 50px;
+    font-weight: 900;
+}
+#dme{
+    position: absolute;
+    top: 1490px;
+    left: 50px;
+    font-weight: 100;
+}
+#fdm{
+    position: absolute;
+    top: 1560px;
+    left: 150px;
+    text-transform: capitalize ;
+}
+#umstw{
+    position: absolute;
+    top: 1610px;
+    left: 150px;
+    text-transform: capitalize;
+    font-weight: 100;
+    
+}
+#rms{
+    position: absolute;
+    top: 1660px;
+    left: 150px;
+    text-transform: capitalize;
+    font-weight: 500;
+    border: solid black 1px;
+    padding: 5px;
+}
+#h{
+    position: absolute;
+    top:1470px ;
+    right: 150px;
+    font-weight: 300;
+}
+.thala1{
+    background-color: white;
+    height:100vh ;
+}
+#pic{
+    height: 35vh;
+    width: 10vw;
+    position: absolute;
+    top: 1750px;
+    left: 520px;
+}
+#hik{
+  position:absolute;
+  top: 1800px;
+  left: 650px;
+  text-transform: capitalize;
+  font-weight: 900;
+    
+}
+#dmew{
+    position: absolute;
+    top:1920px ;
+    left: 750px;
+
+}
+#bl{
+    position: absolute;
+    top:1970px ;
+    left: 750px;
+    font-weight: 100;
+}
+#ywlht{
+    position: absolute;
+    top: 2100px;
+    left: 650px;
+    text-transform: capitalize;
+}
+#h01{
+    position: absolute;
+    top: 2100px;
+    left: 300px;
+    color:lightseagreen;
+    font-weight: 700;
+    font-size: 150px;
+}
+#h02{
+    position: absolute;
+    top: 2100px;
+    left: 700px;
+    color: greenyellow;
+    font-weight: 700;
+    font-size: 150px;
+    
+}
+#h03{
+    position: absolute;
+    top: 2100px;
+    left: 1100px;
+    color: blueviolet;
+    font-weight: 700;
+    font-size: 150px;
+}
+#uif{
+    position: absolute;
+    top: 2250px;
+    left: 325px;
+}
+#iyba{
+    position: absolute;
+    top: 2250px;
+    left: 723px;
+}
+#dmmt{
+    position: absolute;
+    top: 2250px;
+    left: 1130px;
+}
+#rms1{
+    position: absolute;
+    top: 2400px;
+    left: 700px;
+    text-transform: capitalize;
+    font-weight: 500;
+    border: solid black 1px;
+    padding: 5px;
+}
+.thala2{
+    background-color: black;
+    height: 60vh;
+    width: 50vw;
+    color: white
+}
+#sufa{
+    position: absolute;
+    top: 2500px;
+    left: 250px;
+    text-transform: capitalize;
+}
+#eyeh{
+    position: absolute;
+    top: 2610px;
+    left: 230px;
+    border: solid  lightcoral 3px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    height: 40px;
+    width: 300px;
+}
+#s{
+    border: solid  black 3px;
+    background-color: lightcoral ;
+    color: black;
+    padding: 10px;
+    height: 40px;
+    width: 150px;
+    position: absolute;
+    top: 2660px;
+    left: 300px;
+    border-radius: 20px;
+}
+#vanoko{
+    position: absolute;
+    top: 2700px;
+    left: 335px;
+    font-weight: 100;
+}
+#vanoko1{
+    position: absolute;
+    top: 2760px;
+    left: 300px;
+    text-transform: capitalize;
+    font-weight: 100;
+}
+#vanoko2{
+    position: absolute;
+    top: 2730px;
+    left: 300px;
+    text-transform: capitalize;
+    font-weight: 100;
+}
+
+.thala3{
+    background-color: lightcoral ;
+    height: 60vh;
+    width: 50vw;
+    position: absolute;
+    top: 2474px;
+    left: 764px;
+}
+#yi{
+    position: absolute;
+    left: 200px;
+    top: 60px;
+    text-transform: capitalize;
+}
+#yi1{
+    position: absolute;
+    left: 310px;
+    top: 100px;
+    text-transform: capitalize;
+}
+#yi2{
+    position: absolute;
+    left: 300px;
+    top: 170px;
+    text-transform: capitalize;
+    font-weight: 400;
+    border:  3px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    width: 100px;
+}

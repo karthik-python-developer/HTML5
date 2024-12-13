@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animationn</title>
+    <style>
+        div{
+            border: 1px solid black ;
+            height: 400px ;
+            width: 400px;
+            animation-name: rocky;
+            animation-duration: 5s;
+            animation-iteration-count: 2;
+            background-color: yellow;
+        }
+        /*    first method :
+         @keyframes rocky {
+            from{
+                background-color: red;
+            }
+            to{
+                background-color: lavender;
+            }
+        }    second method */
+        @keyframes rocky {
+            0%{
+                background-color: red;
+                transform: translateX(250px);
+                border-radius: 100px;
+            }
+            20%{
+                background-color: aqua;
+                transform: translate(250px,250px);
+                border-radius: 150px;
+            }
+            80%{
+                background-color: palevioletred;
+                transform: translate(0px,250px);
+                border-radius: 200px;
+            }
+            100%{
+                background-color: greenyellow;
+
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        hello guys 
+    </div>
+</body>
+</html>

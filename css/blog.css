@@ -1,0 +1,27 @@
+
+body{
+    background-color: black;
+    color: white;
+}
+img{
+    border: 10px solid white;
+    height: 300px;
+    width: 300px;
+    border-radius: 150px 150px 150px 150px;
+    margin: 100px 600px ;
+}
+
+h1{
+    text-align: center;
+    margin: -50px;
+    text-decoration: underline solid white;
+    text-transform: uppercase;
+}
+
+p{
+    text-align: center;
+    margin: 100px;
+    text-transform: capitalize;
+    word-spacing: 5px;
+}
+

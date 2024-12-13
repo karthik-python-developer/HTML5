@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    
+}
+
+div{
+    background: rgb(217,10,239);
+    background: linear-gradient(0deg, rgba(217,10,239,1) 50%, rgba(70,136,15,1) 50%, rgba(18,192,172,1) 50%);
+    height: 90vh; 
+}
+#one{
+    text-transform: uppercase;
+    padding-left: 200px;
+    position: absolute;
+    top: 50px;
+}
+ #two{
+    color: white;
+    text-transform: capitalize;
+    padding-left: 550px;
+    word-spacing: 40px;
+    display: inline;
+    position:absolute;
+    top: 70px;
+ }
+ #three{
+   position: absolute;
+    left: 1000px;
+    top: 88px;
+ }
+
+#four{
+    text-transform: capitalize;
+    padding-left: 600px;
+    padding-top: 170px;
+    color: white;
+    word-spacing: 30px;
+   
+} 
+#five{
+   position: absolute;
+   top: 240px;
+   left: 620px;
+} 
+#six{
+   
+    padding-left: 600px;
+    height: 35px;
+    width: 700px;
+
+ 
+}
+#s1{
+   
+   
+    height: 35px;
+    width: 400px;
+    text-indent: 100px;
+    position: absolute;
+    bottom: 400px;
+
+ }
+
+#seven{
+    position: absolute;
+    bottom:417px ;
+    left: 545px;
+}
+ #eight{
+    position: absolute;
+    left:250px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50px;
+} 
+
+#ak{
+  
+   background-color: white;
+   height: 300px;
+   width: 350px;
+   border-radius: 50px;
+   position: absolute;
+   left: 280px;
+   top: 400px;
+   text-decoration:underline dotted black 2px ;
+   text-indent: 40px;
+}
+#id{
+    position: absolute;
+    top:450px ;
+    width: 300px;
+    left: 280px;
+    padding: 10px;
+}
+#a1{
+    font-size: 50px;
+    position: absolute;
+    left: 300px;
+    top: 630px;
+    transition: 5s;
+
+}#a1:hover{
+    translate: 500px;
+    rotate: 360deg;
+   
+}
+#a2{
+    font-size: 60px;
+    position: absolute;
+    left: 450px;
+    top: 630px;
+    transition: 5s;
+}
+#a2:hover{
+    translate: 500px;
+    rotate: 360deg;
+}
+#zz{
+    position: relative;
+    bottom: 500px;
+    left: 790px;
+    border: 3px solid white;
+   
+    background-image: url("https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=600");
+    height: 300px;
+    width: 500px;
+    opacity: 0.5;
+    border-radius: 50px;
+    text-decoration:underline dotted black 2px ;
+    text-indent: 50px;
+}
+#cc{
+    position:relative;
+    bottom: 800px;
+    left: 850px;
+    color: white;
+}
+#qq{
+    position:relative;
+    bottom: 750px;
+    left: 850px;
+    color: white;
+    width: 400px;
+}
+#y{
+    position: relative;
+    bottom: 850px;
+    left: 1200px;
+    font-size: 20px;
+    transition: 5s;
+}
+#y:hover{
+    rotate: 360deg;
+}
+#l{
+    position: relative;
+    left: 820px;
+    bottom:720px ;
+}
+#dd{
+    position: relative;
+    bottom: 720px;
+    left: 900px;
+}
+#t{
+    position: relative;
+    bottom: 720px;
+    left: 920px;
+}
+#in{
+    position: relative;
+    bottom: 720px;
+    left: 940px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+   <div id="a">
+    <h2>register page</h2>
+    <input type="text" name="username" id="name" placeholder="username"> <br><br>
+    <input type="password" name="password" id="pass" placeholder="password"> <br><br>
+    <input type="mail" name="mail" id="mail" placeholder="mail"> <br><br>
+    <button id="register"> register</button> <br><br>
+   </div>
+
+
+   <div id="b">
+    <h2>login page </h2>
+    <input type="text" name="username" id="name1" placeholder="username"> <br><br>
+    <input type="password" name="password" id="pass1" placeholder="password"> <br><br>
+    <button id="login"> login </button>
+   </div>
+   
+
+<script>
+    // local Storage
+
+    let reg_button = document.getElementById("register")
+    let log_button = document.getElementById("login")
+
+    let a = 1 ;
+
+    reg_button.addEventListener("click",()=>{
+        let arr = []  ;
+        let username = document.getElementById("name").value
+        arr.push(username)
+
+        let password = document.getElementById("pass").value
+        arr.push(password)
+
+        let mail = document.getElementById("mail").value
+        arr.push(mail)
+
+        
+       localStorage.setItem("workers" + a++,arr)
+
+    })
+
+    log_button.addEventListener("click",()=>{
+        let username = document.getElementById("name1").value
+        let password = document.getElementById("pass1").value
+
+        let data = localStorage.getItem("workers1")
+       
+        
+    })
+
+
+
+</script>
+
+</body>
+</html>

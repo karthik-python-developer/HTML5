@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+}
+#a{
+    background-image: url("../image/Screenshot\ 2024-10-09\ 124641.png");
+    height: 97vh;
+    width: 100vw;   
+    opacity: 0.9;
+}
+#h{
+    color: red;
+    text-transform: uppercase;
+    position: absolute;
+    top: 147px;
+    left: 100px;
+    font-size: 40px;
+    font-style: oblique;
+  
+}
+#p1{
+     color: white;
+     text-transform: uppercase;
+     position: absolute;
+     left: 570px;
+     top: 160px;
+
+}
+#box{
+    border: 2px solid black;
+    height: 700px;
+    width: 400px;
+    position: absolute;
+    top: 100px;
+    left: 37%;
+    background-color: black;
+    opacity: 0.9;
+}
+#input1{
+    position: absolute;
+    left: 600px;
+    top: 220px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 300px;
+   
+}
+#input1:hover{
+    border: 4px solid red;
+}
+#input2{
+    position: absolute;
+    left: 600px;
+    top: 290px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 300px;
+}
+
+
+#input3{
+    color: white;
+    background-color: red;
+    height: 30px;
+    width: 300px;
+    text-indent: 40%;
+    position: absolute;
+    padding-top: 9px;
+    left: 600px;
+    top: 360px;
+    border-radius:3px ;
+    
+}
+#input3:hover{
+    background-color: brown;
+}
+#or{
+    color: white;
+    position: absolute;
+    left: 730px;
+    top: 430px;
+    text-transform: uppercase;
+}
+
+#sign{
+    position: absolute;
+    left: 600px;
+    top: 460px;
+    color: black;
+    background-color: gray;
+    padding-top: 8px;
+    height: 30px;
+    width: 300px;
+    text-indent: 90px;
+    opacity: 0.6;
+}
+#sign:hover{
+    background-color: lavender;
+}
+
+#fp{
+    color: white;
+    position: absolute;
+    left: 670px;
+    top: 530px;
+    text-transform: uppercase;
+}
+#fp:hover{
+    text-decoration: underline solid white 2px;
+}
+
+#ch{
+    position: absolute;
+    left: 610px;
+    top: 585px;   
+}
+#ch1{
+    color: white;
+    position: absolute;
+    left: 640px;
+    top: 583px;  
+    text-transform: capitalize; 
+}
+#sp{
+     color: white;
+    position: absolute;
+    left: 610px;
+    top: 620px;   
+    text-transform: capitalize; 
+
+}
+#sp1{
+   color: white;
+   position: absolute;
+   left: 715px;
+   top: 620px;   
+   text-transform: capitalize; 
+
+}
+#ll{
+    color: grey;
+    position: absolute;
+    left: 615px;
+    top: 650px;
+    font-weight: 100;
+}
+#ll1{
+    color: grey;
+    position: absolute;
+    left: 615px;
+    top: 665px;
+    font-weight: 100;
+}
+#ll2{
+    color: blue;
+    position: absolute;
+    left: 767px;
+    top: 666px;
+    font-weight: 100;
+}
+
+
+#b{
+    height: 50vh;
+    width: 100vw;
+    background-color: black;
+}
+#b1{
+    color: white;
+    position: relative;
+    left: 250px;
+    top: 100px;
+    word-spacing: 10px ;
+    text-transform: uppercase;
+}
+#b2{
+    color: white;
+    position: relative;
+    top: 150px;
+    word-spacing: 10px ;
+    text-decoration: underline solid white 1px;
+}
+#b3{
+    color: white;
+    position: relative;
+    top: 190px;
+    right: 36px;
+    text-decoration: underline solid white 1px;
+}
+#b4{
+    color: black;
+    background-color: white;
+    position: relative;
+    top: 240px;
+    right: 150px;
+    border: 2px solid white;
+}
+#b5{
+    color: white;
+    position: relative;
+    top: 140px;
+   left: 500px;
+   text-decoration: underline solid white 1px;
+}
+#b6{
+    color: white;
+    position: relative;
+    top: 170px;
+    left: 500px; 
+    text-decoration: underline solid white 1px;   
+}
+#b7{
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 800px; 
+    text-decoration: underline solid white 1px;   
+}
+#b8{
+    color: white;
+    position: relative;
+    top: 80px;
+    left: 1050px; 
+    text-decoration: underline solid white 1px;   
+}

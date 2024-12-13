@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container{
+             border: 1px solid black; 
+            /* height: 50vh; */
+            width: 50%;
+            display: grid;
+            grid-template-rows: 100px 300px 300px;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-areas: " first first" " second third" "second fourth";
+            row-gap: 20px;
+            column-gap: 20px;
+        }
+        .grid{
+            border: 1px solid black; 
+            transition: 5s;
+        }
+        .grid:hover{
+            background-color: red;
+        }
+        #a{
+            grid-area: first;
+        }
+        #b{
+            grid-area: second;
+        }
+        #c{
+            grid-area: third;
+        }
+        #d{
+            grid-area: fourth;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid" id="a">dog</div>
+        <div class="grid" id="b">cat</div>
+        <div class="grid" id="c">lion</div>
+        <div class="grid" id="d">tiger</div>
+</body>
+</html>
+

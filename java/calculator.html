@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title>
+</head>
+<body>
+    <div id="important">
+        <div>
+            <h1>calculator</h1>
+        </div>
+        <div>
+            <input id="inputa" type="number" placeholder="enter the first number"><br><br>
+            <input id="inputb" type="number" placeholder="enter the second number"><br>
+        </div>
+    <br><br>
+    </div>
+    <div>
+        <button onclick="addition()">+</button>
+        <button onclick="substraction()">-</button>
+        <button onclick="multiplication()">*</button>
+        <button onclick="division()">/</button>
+    </div>
+    <div id="output"></div> <br><br>
+    <button type="reset" onclick="location.reload()"> reset</button>
+   
+
+    <script>
+       
+       function addition(){
+            let inputa = Number(document.getElementById("inputa").value); 
+            let inputb = Number(document.getElementById("inputb").value);
+            let output = document.getElementById("output");
+            let add = Number(inputa+inputb) ;
+            let p= document.createElement("p") ;
+            out= add ;
+            output.append(out);
+            console.log(output.append(ans));
+            
+        }
+        function substraction(){
+            let inputa = Number(document.getElementById("inputa").value); 
+            let inputb = Number(document.getElementById("inputb").value);
+            let output = document.getElementById("output");
+            let sub = Number(inputa-inputb) ;
+            let p = document.createElement("p") ;
+            out = sub ;
+            output.append(out);
+            console.log(output.append(ans));
+            
+        }
+        function multiplication(){
+            let inputa = Number(document.getElementById("inputa").value); 
+            let inputb = Number(document.getElementById("inputb").value);
+            let output = document.getElementById("output");
+            let mul = Number(inputa*inputb) ;
+            let p = document.createElement("p") ;
+            out = mul ;
+            output.append(out);
+            console.log(output.append(ans));
+            
+        }
+        function division(){
+            let inputa = Number(document.getElementById("inputa").value); 
+            let inputb = Number(document.getElementById("inputb").value);
+            let output = document.getElementById("output");
+            let div = Number(inputa/inputb) ;
+            let p = document.createElement("p") ;
+            out = div ;
+            output.append(out);
+            console.log(output.append(ans));
+            
+        }
+
+    
+    </script>
+   
+
+</body>
+</html>

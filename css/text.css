@@ -1,0 +1,30 @@
+
+body{
+    background-color: black;
+    color: #44b7b3;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline wavy darkturquoise;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 2px white;
+    font-family: monospace;
+    font-weight: 200;
+    
+}
+p{
+    text-align: justify;
+    text-transform: capitalize;
+    text-indent: 300px;
+    line-height: 50px;
+    word-wrap: break-word;
+/*  word-spacing: 50px; 
+    letter-spacing: 30px;     */
+    font-size:x-small;
+  
+}
+a{
+    text-decoration: none;
+}
+

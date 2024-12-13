@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login and Sign Up</title>
+        <link rel="stylesheet" href="../project/login.css">
+        <style>
+              #a{
+                background-image: url("https://static.vecteezy.com/system/resources/previews/002/486/289/original/gradient-background-instagram-free-vector.jpg");
+                height: 100vh;
+                }
+
+                #l{
+                    height: 50vh;
+                    background-color: white;
+                    width: 35vw;
+                    position: absolute;
+                    top: 200px;
+                    left: 500px;
+                    border-radius: 40px;
+                }
+                #ca{
+                    position: absolute;
+                    left: 150px;
+                    text-transform: uppercase;
+                    
+                    
+                }
+
+
+                #e1{
+                    position: absolute;
+                    top: 130px;
+                    left: 120px;
+                    text-transform: uppercase;
+                    width: 300px;
+                    border-radius: 10px;
+                    background-color: hsl(0, 0%, 90%);
+                    padding: 5px;
+                }
+                #e1:hover{
+                    background-color:lavenderblush;
+                    
+                }
+                #p1{
+                    position: absolute;
+                    top: 200px;
+                    left: 120px;
+                    text-transform: uppercase;
+                    background-color: hsl(0, 0%, 90%);
+                    border-radius: 10px;
+                    width: 300px;
+                    padding: 5px;
+                
+
+                }
+                #p1:hover{
+                    background-color:lavenderblush;
+                    
+                }
+                #btn1{
+                    position: absolute;
+                    top: 270px;
+                    left: 200px;
+                    text-transform: uppercase;
+                    padding: 5px;
+                    width: 150px;
+                }
+                #btn1:hover{
+                    background-color:lightskyblue;
+                    
+                }
+                #i1{
+                    position: absolute;
+                    top: 40px;
+                    left: 370px;
+                }
+                #s1{
+                    position: absolute;
+                    top: 320px;
+                    left: 235px;
+                    text-transform: uppercase;
+                    padding: 5px;
+                    width: 150px;
+                    
+                }
+
+
+
+
+                #a1{
+                    background-image: url("https://static.vecteezy.com/system/resources/previews/002/486/289/original/gradient-background-instagram-free-vector.jpg");
+                    height: 100vh;
+                }
+                #b{
+                    height: 50vh;
+                    background-color: white;
+                    width: 35vw;
+                    position: absolute;
+                    top: 900px;
+                    left: 500px;
+                    border-radius: 40px;
+                }
+                #l1{
+                    position: absolute; 
+                    left: 200px;
+                    text-transform: uppercase;
+                }
+
+
+
+                #e2{
+                    position: absolute;
+                    top: 130px;
+                    left: 120px;
+                    text-transform: uppercase;
+                    width: 300px;
+                    border-radius: 10px;
+                    background-color: hsl(0, 0%, 90%);
+                    padding: 5px;
+                }
+                #e2:hover{
+                    background-color:lavenderblush;
+                    
+                }
+                #p2{
+                    position: absolute;
+                    top: 200px;
+                    left: 120px;
+                    text-transform: uppercase;
+                    background-color: hsl(0, 0%, 90%);
+                    border-radius: 10px;
+                    width: 300px;
+                    padding: 5px;
+                
+
+                }
+                #p2:hover{
+                    background-color:lavenderblush;
+                    
+                }
+                #btn2{
+                    position: absolute;
+                    top: 270px;
+                    left: 200px;
+                    text-transform: uppercase;
+                    padding: 5px;
+                    width: 100px;
+                    text-indent: 20px;
+                }
+                #btn2:hover{
+                    background-color:lightskyblue;
+                    
+                }  
+                #btn3{
+                    position: absolute;
+                    top: 335px;
+                    left: 200px;
+                    text-transform: uppercase;
+                    padding: 5px;
+                    width: 100px;
+                    text-indent: 20px;
+                }
+                #l_in{
+                    position: absolute;
+                    top: 0px;
+                    right: 0px;
+                }
+                #container{
+                    position: relative;
+                } 
+                
+               
+                
+
+        </style>
+    </head>
+    <body>
+
+    
+        <div id="container">
+                           
+            <div id="a">
+                <div id="l" >
+                    <h1 id="ca">instagram</h1>
+                    <input type="email" placeholder="   Email     /  username     /  number" id="e1" /><br><br>
+                    <input type="password" placeholder="                        Password" id="p1" /> <br><br>
+                    <button id="btn1" type="submit">LOGIN IN</button>
+                    <i id="i1" class="fa-brands fa-square-instagram fa-2xl"></i>
+                    <a href="#a1" id="anchor1"> sign up</a>
+                </div>
+
+            </div>
+
+
+            
+            <div id="a1"> 
+                <div id="b">
+                    <h1 id="l1">Sign in</h1>
+                    <input id="e2" type="email" placeholder="Email" /> <br><br>
+                    <input  id="p2" type="password" placeholder="Password"  /> <br><br>
+                    <button id="btn2" type="submit">sign up</button>
+                    <a href="#a" id="anchor2"> log in    </a>
+                </div>        
+            </div>
+
+        </div>
+
+   <script>
+
+        let s_up = document.getElementById('s_up');
+        let l_in = document.getElementById('l_in');
+
+            let btn2 = document.getElementById("btn2");
+
+            let arr =[]
+            let a = 1
+
+            btn2.addEventListener("click",()=>{
+                let email = document.getElementById("e2").value
+                let password = document.getElementById("p2").value
+
+                let obj = {
+                    email:email,
+                    password:password
+                
+                }
+                arr.push(obj)
+
+                console.log(obj);
+                console.log(arr);
+
+            })
+
+
+            let btn1 = document.getElementById("btn1");
+            btn1.addEventListener("click",()=>{
+                let email = document.getElementById("e1").value
+                let password = document.getElementById("p1").value
+
+                for(let i = 0 ; i<arr.length ; i++){
+                    tempory = arr[i]
+                    if(email == tempory.email && password == tempory.password){
+                        alert("Welcome")
+                    }
+                    else{
+                        alert("login failed")
+                    }
+                }
+            })
+
+
+
+   </script>
+
+
+
+
+     
+    </body>
+    </html>
+    
+        
+
+            
+
+        
+                
+
+
+
+
+
+
+
+
+  

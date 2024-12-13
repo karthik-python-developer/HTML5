@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(227, 218, 218);
+}
+#one{
+    color: white;
+    position: relative;
+    bottom: 300px;
+    left: 450px;
+    text-transform: capitalize;
+    word-spacing: 10px;
+    
+}
+span{
+    position: relative;
+    color: white;
+    bottom: 300px;
+    left: 650px;
+    text-transform: capitalize;
+    word-spacing: 10px;
+}
+#a{
+    position: relative;
+    left: 430px;
+    bottom: 240px;
+}
+#b{
+    position: relative;
+    left: 460px;
+    bottom: 240px;
+}
+#c{
+    position: relative;
+    left: 490px;
+    bottom: 240px;
+}
+#d{
+    position: relative;
+    left: 520px;
+    bottom: 240px;
+}
+#e{
+    position: relative;
+    left: 550px;
+    bottom: 240px;
+}
+#f{
+    position: relative;
+    left: 580px;
+    bottom: 240px;
+}
+#two{
+    color: white;
+    position: relative;
+    left: 680px;
+    bottom: 235px;
+    text-transform: capitalize;
+}  
+
+#three{
+    color: white;
+    position: relative;
+    left: 775px;
+    bottom: 267px;
+    text-transform: capitalize;
+    text-decoration: underline white 0px;
+}

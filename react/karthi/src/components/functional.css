@@ -1,0 +1,75 @@
+.container{
+     background-color: black; 
+    height: 100vh;
+}
+.head{
+    background-color: white;
+    height: 65vh;
+    width: 65vw;
+    position: absolute;
+    top: 900px;
+    left: 300px;
+}
+.we{
+    position: absolute;
+    left: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+.syw{
+    position: absolute;
+    left: 250px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.r{
+    position: absolute;
+    left: 400px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.au{
+    position: absolute;
+    left: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.faq{
+    position: absolute;
+    left: 600px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.i{
+    position: absolute;
+    left: 680px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.submit{
+    position: absolute;
+    left: 850px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+}
+.plus{
+   background-color:  blue;
+   color: white;
+   position: absolute;
+   left: 920px;
+   top: 17px;
+}
+.line{
+   position: relative;
+   top: 80px;
+}
+.syw1{
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    font-weight: 900;
+   text-transform: capitalize;
+}
+.last{
+    position: absolute;
+    top:300px ;
+    left: 300px;
+    color: gray;
+    font-weight: 100;
+}
